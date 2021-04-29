@@ -1,12 +1,9 @@
 <html>
 
 <head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>
-        Super Smash Bross
+        Imersão Dev - Aula 09
     </title>
-    <link href="https://jovisk10.github.io/-SuperTrunfo-SmashBross_v1/style.css" rel ="stylesheet"/>
-    <script src ="https://jovisk10.github.io/-SuperTrunfo-SmashBross_v1/scripts.js"></script>
 </head>
 
 <body>
@@ -15,20 +12,26 @@
             alt="">
         <h1 class="page-title">Super Trunfo Smash Bross</h1>
 
-        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+          <div class = 'placar' id="placar">
+                  <div class='placar-style'><strong>Jogador</strong></div>
+                  <span class='pontos-j' id="pontos-jogador"></span> <strong> X </strong>
+                  <span class='pontos-m' id='pontos-maquina'></span>
+                  <div class='placar-style'><strong>Maquina</strong></div>
+           </div>
+         <h2>Escolha o seu atributo</h2>
+        <button onclick="sortearCarta()" class="btnSortear" id="btnSortear"><strong>Sortear carta<strong/></button>
 
         <form id="form">
-            <h2>Escolha o seu atributo</h2>
             <div class="wrapper">
-                <div id="placar"></div>
-                <div id="quantidade-cartas"></div>
+                
+                <div class='quantidadeCartas' id="quantidade-cartas"></div>
                 <div id="cartas">
                     <div id="carta-jogador" class="carta"></div>
                     <div id="carta-maquina" class="carta"></div>
                 </div>
                 <div class="audioVenceu" id="audioVenceu" ></div>
                 <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
-                    disabled="false">Jogar</button>
+                    disabled="false"><strong>Jogar</strong></button>
             </div>
             <div class="atributoEscolhidoMaquina" id="atributoEscolhidoMaquina"></div>
             <div id="resultado"></div>
