@@ -28,9 +28,32 @@ button {
     border-radius: 5px;
     border: none;
     font-size: 1rem;
+    
+    transition: background-color 0.2s;
+}
+
+.btnSortear {
+  margin-top: 0.5rem;
+  background:#5965E0;
+  color:white;
+}
+
+.btnSortear:hover {
+  background:#4953B8;
+  
+}
+
+.button-jogar {
+  background: #4CD62B;
+  color: white;
+}
+
+.button-jogar:hover {
+  background: #47c229;
 }
 
 h2 {
+    margin-top: 2rem;
     color: white;
 
 }
@@ -122,9 +145,81 @@ form {
     justify-content: space-between;
 }
 
-#placar, #quantidade-cartas {
-    color: white;
+.placar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+
 }
+
+.placar-style {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-family:Rajdhani;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  border: 0.3rem solid #bebebe;
+  width: 9.7rem;
+  height: 2.2rem;
+  
+  background: #f2f3f5;
+  color: black;
+  
+}
+
+.pontos-j{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-family:Rajdhani;
+  font-size: 2.5rem;
+  border: 0.3rem solid #bebebe;
+  width: 3.2rem;
+  height: 3.2rem;
+  
+  margin-right: -0.5rem;
+  transform: translateX(-25%);
+  
+  background: #f2f3f5;
+  color: black;
+}
+
+.pontos-m{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-family: Rajdhani;
+  font-size: 2.5rem;
+  border: 0.3rem solid #bebebe;
+  width: 3.2rem;
+  height: 3.2rem;
+  
+  margin-left: -0.5rem;
+  transform: translateX(25%);
+  
+  background: #f2f3f5;
+  color: black;
+}
+
+.quantidadeCartas {
+  color: white;
+  
+  margin-top: 0.4rem;
+  font-size: 20px;
+  
+  
+}
+
 .atributoEscolhidoMaquina{
   background: white;
 }
