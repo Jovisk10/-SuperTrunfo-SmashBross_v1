@@ -4,7 +4,9 @@ Primeira versão de um super Trundo de cartas com personagens do jogo Smash Bros
 
 O jogo é formado por 5 rodadas, onde elas se alternam entre a vez do jogador e a vez da máquina. </br>
 
-Primeiro é sorteado uma carta para cada um, escolhido um atributo eles são comparados e quem tiver o maior valor é o vencedor da rodada.![FireShot - SuperTrunfo - SmashBross - Inicio](https://user-images.githubusercontent.com/58218062/116698742-b90eb400-a992-11eb-9425-4f07afeec49f.jpg) </br>
+Primeiro é sorteado uma carta para cada um, escolhido um atributo eles são comparados e quem tiver o maior valor é o vencedor da rodada.
+
+![FireShot - SuperTrunfo - SmashBross - Inicio](https://user-images.githubusercontent.com/58218062/116698742-b90eb400-a992-11eb-9425-4f07afeec49f.jpg) </br>
 
 E então a carta é mostrada e o jogador pode fazer a escolha do atributo caso seja a sua vez.
 
