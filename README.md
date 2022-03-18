@@ -1,6 +1,6 @@
 # SuperTrunfo-SmashBross_v1
 
-Primeira versão de um super Trundo de cartas com personagens do jogo Smash Bross.
+Primeira versão de um super Trunfo de cartas com personagens do jogo Smash Bross.
 
 O jogo é formado por 5 rodadas, onde elas se alternam entre a vez do jogador e a vez da máquina. </br>
 
